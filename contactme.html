@@ -2,40 +2,58 @@
     <head>
         <title>Contact Me</title>
         <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" type="text/css" href="css/navbar.css">
     </head>
     
     <body>
+    <nav>
+      <div class="left-side">
+        <a href="/"><img src="../img/logo.png" id="image" /> </a>
+        <ul>
+          <li>
+            <a href="/" class="active">Home</a>
+          </li>
+          <li>
+            <a href="/project">My Project</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="right-side">
+        <a href="/contact-me"> Contact Me</a>
+      </div>
+    </nav>
 
         <h1>Get In Touch</h1>
         
-        <divclass="header">
+        <div class="header">
             <form>
-                <div>
+                <div class="text">
                     <label for="name">Name</label>
                     <input type="text" id="name"/>
                 </div>
                 
-                <div>
-                    <label for="email"">Email</label>
+                <div class="text">
+                    <label for="email" >Email</label>
                     <input type="text" id="email"/>
                 </div>
                 
-                <div>
-                    <label for="phone">Phone Number</label>
+                <div class="text">
+                    <label for="phone" >Phone Number</label>
                     <input type="text" id="phone"/>
                 </div>
                 
-                <div>
-                    <label for="subject">Subject</label>
-                    <select id="subject">
+                <div class="text">
+                    <label for="subject" >Subject</label>
+                    <select id="subject" >
                         <option>Frontend</option>
                         <option>Backend</option>
                         <option>Fullstack</option>
                     </select>
                 </div>
 
-                <div>
-                    <label for="description">Your Massage</label>
+                <div class="text">
+                    <label for="description" >Your Massage</label>
                     <textarea id="description"></textarea>
                 </div>
                 <div class="button">
